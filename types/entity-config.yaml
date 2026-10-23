@@ -1,0 +1,14 @@
+ChatReply:
+  prompt: >-
+    Write the assistant's next conversational reply to the user's latest message.
+    Use the recent conversation as context. Be natural, direct, and genuinely helpful.
+    Do not invent personal facts, claim actions you have not taken, or say you are ChatGPT.
+    If the user's request depends on current or external facts not supplied in the conversation,
+    be clear about uncertainty instead of pretending to have browsed. Keep the response concise
+    unless the user asks for depth. Output the reply only in the answer field.
+  title: "Chat reply"
+  isImageOnly: false
+  primaryContentLabel: "Reply"
+  textModel: "auto"
+  historyContract:
+    strategy: "none"
