@@ -19,4 +19,4 @@ The app is inspired by the chat experience; it is not an exact ChatGPT clone and
 - `types/index.ts` — reply and conversation types
 - `types/entity-config.yaml` — Wabi AI reply-generation prompt
 
-This repository contains only those app source files and this README. It intentionally excludes the app's live Store, conversation history, test prompts/replies, Wabi runtime internals, credentials, generated build output, and deployment configuration. No deployment is configured.
+This repository contains only those app source files and this README. It intentionally excludes the app's live Store, conversation history, test prompts/replies,  credentials, generated build output, and deployment configuration. No deployment is configured.
